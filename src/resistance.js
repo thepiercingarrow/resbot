@@ -65,6 +65,15 @@ module.exports = function(bot, config) {
 		    });
 		});
 		break;
+	    case 'stop':
+		if (status != 'idle') {
+		    bot.sendMessage({
+			to: config.cid,
+			message: 'Game stopped by <@' + uid + '>.'
+		    });
+		    status = 'idle';
+		}
+		break;
 	    case 'propose':
 		if (status != 'waiting for a proposal' || uid != players[leader].uid || cid != config.cid)
 		    return;
