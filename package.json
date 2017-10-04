@@ -1,0 +1,25 @@
+{
+   "name": "resbot",
+   "version": "1.0.0",
+   "description": "a resistance discord bot",
+   "main": "main.js",
+   "dependencies": {
+      "discord.io": "^2.5.1",
+      "knuth-shuffle": "^1.0.1"
+   },
+   "devDependencies": {},
+   "scripts": {
+      "start": "node src/main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thepiercingarrow/resbot.git"
+   },
+   "author": "Maxwell Zhao",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/thepiercingarrow/resbot/issues"
+   },
+   "homepage": "https://github.com/thepiercingarrow/resbot#readme"
+}
